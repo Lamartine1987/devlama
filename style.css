@@ -1,0 +1,25 @@
+body {
+    background: linear-gradient(to right,#aad9fe, #52d5ff);
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  h1 {
+    padding-top: 50px;
+    color: navy;
+  }
+
+  #image {
+    display: none;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #4682B4;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }

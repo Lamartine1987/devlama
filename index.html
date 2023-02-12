@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <title>Git/GitHub</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <h1 id="title">Bem vindo ao DevLama</h1>
+    <p>Clique no botão abaixo:</p>
+    <button onclick="showImage()">Exibir imagem</button>
+    <br><br>
+    <img id="image" src="star.jpg" style="display:none;">
+    
+
+    <script>
+      const title = document.getElementById("title");
+      const button = document.getElementById("button");
+
+      function showImage() {
+        document.getElementById("image").style.display = "block";
+      }
+    </script>
+  </body>
+</html>
